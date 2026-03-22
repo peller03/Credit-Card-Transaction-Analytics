@@ -21,7 +21,8 @@ The objective is to transform raw transaction records into **behavioral financia
 
 ## Dashboard Preview
 
-![Dashboard Preview](https://github.com/user-attachments/assets/dashboard-preview-placeholder)
+ 
+![SAVE_20260308_162116](https://github.com/user-attachments/assets/4922d281-ba42-4bfd-835f-4874677247dc)
 
 The analysis is structured into **four analytical dashboards**:
 
