@@ -348,16 +348,6 @@ Based on the insights derived across all four dashboards:
 
 8. **Use merchant category and geographic insights to drive expansion strategy** — Texas and California anchor physical merchant revenue while categories like Steel Products and Tools Manufacturing reveal a meaningful B2B transaction segment worth developing further.
 
----
+ 
 
-### Limitations
-While the analysis provides valuable insights, certain limitations exist:
-
-- The dataset represents a **static snapshot** of user financial attributes — debt, credit score, and income do not change over time within the dataset limiting true time series analysis on these fields.
-- **Credit score and debt values cannot be filtered by year** as the users table contains no date column — these metrics reflect current state only and do not capture how user financial health evolved across the analysis period.
-- Some **merchant descriptions in the MCC table are highly specific** — particularly industrial and manufacturing categories — making it difficult to determine whether these represent consumer or business to business transactions without additional context.
-- The **zip code and merchant location data is incomplete** in some transaction records limiting the granularity of geographic analysis below state level.
-- **Credit utilization calculations use total transaction amount against credit limit** rather than end of period balance — this may overstate utilization for users who pay down balances regularly within the period.
-- The analysis covers transaction behavior only and does not capture **external economic factors** such as inflation, interest rate changes, or regional economic conditions that may influence spending and debt patterns.
-
-Future work could expand this model to support **real time transaction monitoring, predictive credit risk scoring, automated merchant anomaly detection, and longitudinal user financial health tracking** across multiple time periods.
+ 
